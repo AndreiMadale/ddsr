@@ -23,9 +23,9 @@ $app = new Laravel\Lumen\Application(
     dirname(__DIR__)
 );
 
-// $app->withFacades();
+ $app->withFacades(); // commented on initial code
 
-// $app->withEloquent();
+ $app->withEloquent(); // commented on initial code
 
 /*
 |--------------------------------------------------------------------------
